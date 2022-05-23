@@ -1825,7 +1825,7 @@ public class Calculator {
                     }
                 }
                 break;
-            case "unie60":
+            case "uni1e60":
                 if(height == 2050)  {
                     if(width == 800){
                         price = 239.30 ;
@@ -2389,239 +2389,298 @@ public class Calculator {
                     } else if (width >= 1801 && width <= 2000) {
                         price = 588.17;
                     } else if (width >= 2001 && width <= 2200) {
-                        price = 783.34;
+                        price = 670.34;
                     } else if (width >= 2201 && width <= 2400) {
-                        price = 803.48;
-                    } else if (width >= 2401 && width <= 2540) {
-                        price = 866.02;
+                        price = 690.89;
+                    } else if (width >= 2401 && width <= 2600) {
+                        price = 759.00;
+                    }else if(width>=2601 && width <=2660){
+                        price = 779.55;
                     }
 
-                } else if (height == 2100) {
+                }else if (height == 2050 ) {
                     if (width == 1150) {
-                        price = 602.08;
+                        price = 508.16;
                     } else if (width == 1200) {
-                        price = 609.50;
+                        price = 510.33;
                     } else if (width == 1250) {
-                        price = 622.22;
+                        price = 516.31;
                     } else if (width == 1300) {
-                        price = 629.64;
+                        price = 518.98;
                     } else if (width == 1350) {
-                        price = 632.82;
+                        price = 527.63;
                     } else if (width == 1400) {
-                        price = 641.30;
+                        price = 529.79 ;
                     } else if (width == 1450) {
-                        price = 646.60;
+                        price = 531.95;
                     } else if (width == 1600) {
-                        price = 668.86;
+                        price = 549.25;
                     } else if (width == 1700) {
-                        price = 683.70;
+                        price = 553.57;
                     } else if (width == 1800) {
-                        price = 696.42;
+                        price = 563.31;
                     } else if (width == 1900) {
-                        price = 711.26;
+                        price = 568.71;
                     } else if (width == 2000) {
-                        price = 725.04;
-                    } else if (width >= 890 && width <= 1260) {
-                        price = 654.02;
-                    } else if (width >= 1261 && width <= 1280) {
-                        price = 662.50;
+                        price = 584.93;
+                    } else if (width >= 850 && width <= 1280) {
+                        price = 512.49;
                     } else if (width >= 1281 && width <= 1380) {
-                        price = 673.10;
-                    } else if (width >= 1381 && width <= 1430) {
-                        price = 676.28;
-                    } else if (width >= 1431 && width <= 1480) {
-                        price = 691.12;
-                    } else if (width >= 1481 && width <= 1530) {
-                        price = 687.94;
-                    } else if (width >= 1531 && width <= 1600) {
-                        price = 694.30;
-                    } else if (width >= 1601 && width <= 1630) {
-                        price = 710.20;
-                    } else if (width >= 1631 && width <= 1800) {
-                        price = 725.04;
+                        price = 522.22;
+                    } else if (width >= 1381 && width <= 1480) {
+                        price = 529.79;
+                    } else if (width >= 1481 && width <= 1600) {
+                        price = 552.49;
+                    } else if (width >= 1601 && width <= 1800) {
+                        price = 566.55;
                     } else if (width >= 1801 && width <= 2000) {
-                        price = 749.42;
+                        price = 588.17;
                     } else if (width >= 2001 && width <= 2200) {
-                        price = 805.60;
+                        price = 670.34;
                     } else if (width >= 2201 && width <= 2400) {
-                        price = 824.68;
-                    } else if (width >= 2401 && width <= 2540) {
-                        price = 887.22;
+                        price = 690.89;
+                    } else if (width >= 2401 && width <= 2600) {
+                        price = 759.00;
+                    }else if(width>=2601 && width <=2660){
+                        price = 779.55;
+                    }
+
+                }
+                else if (height == 2100) {
+                    if (width == 1150) {
+                        price = 540.60;
+                    } else if (width == 1200) {
+                        price = 542.76;
+                    } else if (width == 1250) {
+                        price = 551.41;
+                    } else if (width == 1300) {
+                        price = 549.25;
+                    } else if (width == 1350) {
+                        price = 560.06;
+                    } else if (width == 1400) {
+                        price = 560.06;
+                    } else if (width == 1450) {
+                        price = 568.71;
+                    } else if (width == 1600) {
+                        price = 581.69;
+                    } else if (width == 1700) {
+                        price = 589.25;
+                    } else if (width == 1800) {
+                        price = 600.07;
+                    } else if (width == 1900) {
+                        price = 606.55;
+                    } else if (width == 2000) {
+                        price = 617.37;
+                    } else if (width >= 850 && width <= 1260) {
+                        price = 562.22;
+                    } else if (width >= 1261 && width <= 1280) {
+                        price = 563.31;
+                    } else if (width >= 1281 && width <= 1380) {
+                        price = 579.52 ;
+                    } else if (width >= 1381 && width <= 1430) {
+                        price = 587.09;
+                    } else if (width >= 1431 && width <= 1480) {
+                        price = 588.17;
+                    } else if (width >= 1481 && width <= 1530) {
+                        price = 601.15;
+                    } else if (width >= 1531 && width <= 1600) {
+                        price = 609.80;
+                    } else if (width >= 1601 && width <= 1630) {
+                        price = 614.12;
+                    } else if (width >= 1631 && width <= 1800) {
+                        price = 634.66;
+                    } else if (width >= 1801 && width <= 2000) {
+                        price = 657.37;
+                    } else if (width >= 2001 && width <= 2200) {
+                        price = 699.54;
+                    } else if (width >= 2201 && width <= 2400) {
+                        price = 714.67;
+                    } else if (width >= 2401 && width <= 2600) {
+                        price = 787.11;
+                    }else if(width >= 2601 && width <= 2660){
+                        price = 810.90;
                     }
 
                 } else if (height == 2150) {
                     if (width == 1150) {
-                        price = 573.46;
+                        price = 517.89;
                     } else if (width == 1200) {
-                        price = 581.94;
+                        price = 518.98;
                     } else if (width == 1250) {
-                        price = 591.48;
+                        price = 527.63;
                     } else if (width == 1300) {
-                        price = 597.84;
+                        price = 527.63;
                     } else if (width == 1350) {
-                        price = 602.08;
+                        price = 535.19;
                     } else if (width == 1400) {
-                        price = 607.38;
+                        price = 538.44;
                     } else if (width == 1450) {
-                        price = 612.68;
+                        price = 544.92;
                     } else if (width == 1600) {
-                        price = 633.88;
+                        price = 554.66;
                     } else if (width == 1700) {
-                        price = 649.78;
+                        price = 563.31;
                     } else if (width == 1800) {
-                        price = 665.68;
+                        price = 577.36;
                     } else if (width == 1900) {
-                        price = 675.22;
+                        price = 584.93;
                     } else if (width == 2000) {
-                        price = 689;
-                    } else if (width >= 890 && width <= 1280) {
-                        price = 610.56;
+                        price = 595.74;
+                    } else if (width >= 850 && width <= 1280) {
+                        price = 521.14;
                     } else if (width >= 1281 && width <= 1380) {
-                        price = 627.52;
+                        price = 527.63;
                     } else if (width >= 1381 && width <= 1480) {
-                        price = 640.24;
+                        price = 541.68;
                     } else if (width >= 1481 && width <= 1600) {
-                        price = 651.90;
+                        price = 563.31;
                     } else if (width >= 1601 && width <= 1800) {
-                        price = 676.28;
+                        price = 584.93;
                     } else if (width >= 1801 && width <= 2000) {
-                        price = 699.60;
+                        price = 605.47;
                     } else if (width >= 2001 && width <= 2200) {
-                        price = 805.60;
+                        price = 670.34;
                     } else if (width >= 2201 && width <= 2400) {
-                        price = 824.68;
-                    } else if (width >= 2401 && width <= 2540) {
-                        price = 887.22;
+                        price = 690.89;
+                    } else if (width >= 2401 && width <= 2600) {
+                        price = 759.00;
+                    }else if(width >= 2601 && width <= 2660){
+                        price = 779.55 ;
                     }
 
                 } else if (height == 2200) {
                     if (width == 1150) {
-                        price = 630.70;
+                        price = 584.93;
                     } else if (width == 1200) {
-                        price = 638.12;
+                        price = 587.09;
                     } else if (width == 1250) {
-                        price = 649.78;
+                        price = 591.42;
                     } else if (width == 1300) {
-                        price = 660.38;
+                        price = 593.58;
                     } else if (width == 1350) {
-                        price = 665.68;
+                        price = 605.47;
                     } else if (width == 1400) {
-                        price = 670.98;
+                        price = 608.72;
                     } else if (width == 1450) {
-                        price = 674.16;
+                        price = 611.96;
                     } else if (width == 1600) {
-                        price = 698.54;
+                        price = 603.31;
                     } else if (width == 1700) {
-                        price = 716.56;
+                        price = 608.72;
                     } else if (width == 1800) {
-                        price = 730.34;
+                        price = 624.93;
                     } else if (width == 1900) {
-                        price = 743.08;
+                        price = 635.75;
                     } else if (width == 2000) {
-                        price = 757.90;
-                    } else if (width >= 890 && width <= 1100) {
-                        price = 693.24;
+                        price = 647.64;
+                    } else if (width >= 850 && width <= 1100) {
+                        price = 623.85;
                     } else if (width >= 1101 && width <= 1340) {
-                        price = 728.22;
+                        price = 634.66;
                     } else if (width >= 1341 && width <= 1800) {
-                        price = 789.70;
+                        price = 699.54;
                     } else if (width >= 1801 && width <= 2250) {
-                        price = 867.08;
-                    } else if (width >= 2251 && width <= 2540) {
-                        price = 942.34;
+                        price = 773.06;
+                    } else if (width >= 2251 && width <= 2660) {
+                        price = 839.01;
                     }
 
-                } else if (height >= 1775 && height <= 2050) {
-                    if (width >= 890 && width <= 1260) {
-                        price = 641.30;
+                } else if (height >= 1750 && height <= 2050) {
+                    if (width >= 850 && width <= 1260) {
+                        price = 549.25;
                     } else if (width >= 1261 && width <= 1280) {
-                        price = 650.84;
+                        price = 550.33;
                     } else if (width >= 1281 && width <= 1380) {
-                        price = 662.50;
+                        price = 558.98;
                     } else if (width >= 1381 && width <= 1430) {
-                        price = 666.74;
+                        price = 566.55;
                     } else if (width >= 1431 && width <= 1480) {
-                        price = 680.52;
+                        price = 576.28;
                     } else if (width >= 1481 && width <= 1530) {
-                        price = 682.64;
+                        price = 583.85;
                     } else if (width >= 1531 && width <= 1600) {
-                        price = 682.84;
+                        price = 590.34;
                     } else if (width >= 1601 && width <= 1630) {
-                        price = 694.30;
+                        price = 594.66;
                     } else if (width >= 1631 && width <= 1800) {
-                        price = 701.72;
+                        price = 617.37;
                     } else if (width >= 1801 && width <= 2000) {
-                        price = 727.16;
+                        price = 637.91;
                     } else if (width >= 2001 && width <= 2200) {
-                        price = 783.34;
+                        price = 670.34;
                     } else if (width >= 2201 && width <= 2400) {
-                        price = 803.48;
-                    } else if (width >= 2401 && width <= 2540) {
-                        price = 866.02;
+                        price = 690.89;
+                    } else if (width >= 2401 && width <= 2600) {
+                        price = 759.00;
+                    }else if(width >= 2601 && width <= 2660){
+                        price = 779.55;
                     }
                 } else if (height >= 2051 && height <= 2150) {
-                    if (width >= 890 && width <= 1260) {
-                        price = 654.02;
+                    if (width >= 850 && width <= 1260) {
+                        price = 562.22;
                     } else if (width >= 1261 && width <= 1280) {
-                        price = 662.50;
+                        price = 563.31;
                     } else if (width >= 1281 && width <= 1380) {
-                        price = 673.10;
+                        price = 579.52;
                     } else if (width >= 1381 && width <= 1430) {
-                        price = 676.28;
+                        price = 587.09;
                     } else if (width >= 1431 && width <= 1480) {
-                        price = 691.12;
+                        price = 588.17;
                     } else if (width >= 1481 && width <= 1530) {
-                        price = 687.94;
+                        price = 601.15;
                     } else if (width >= 1531 && width <= 1600) {
-                        price = 694.30;
+                        price = 609.80;
                     } else if (width >= 1601 && width <= 1630) {
-                        price = 710.20;
+                        price = 614.12;
                     } else if (width >= 1631 && width <= 1800) {
-                        price = 725.04;
+                        price = 634.66;
                     } else if (width >= 1801 && width <= 2000) {
-                        price = 749.42;
+                        price = 657.37;
                     } else if (width >= 2001 && width <= 2200) {
-                        price = 805.60;
+                        price = 699.54;
                     } else if (width >= 2201 && width <= 2400) {
-                        price = 824.68;
-                    } else if (width >= 2401 && width <= 2540) {
-                        price = 887.22;
+                        price = 714.67;
+                    } else if (width >= 2401 && width <= 2600) {
+                        price = 787.11;
+                    }else if(width >= 2601 && width <= 2660){
+                        price = 810.90 ;
+
                     }
                 } else if (height >= 2151 && height <= 2300) {
-                    if (width >= 890 && width <= 1100) {
-                        price = 693.24;
+                    if (width >= 850 && width <= 1100) {
+                        price = 623.85;
                     } else if (width >= 1101 && width <= 1340) {
-                        price = 728.22;
+                        price = 634.66;
                     } else if (width >= 1341 && width <= 1800) {
-                        price = 789.70;
+                        price = 699.54;
                     } else if (width >= 1801 && width <= 2250) {
-                        price = 867.08;
-                    } else if (width >= 2251 && width <= 2540) {
-                        price = 942.34;
+                        price = 773.06;
+                    } else if (width >= 2251 && width <= 2660) {
+                        price = 839.01;
                     }
                 } else if (height >= 2301 && height <= 2500) {
-                    if (width >= 890 && width <= 1100) {
-                        price = 709.14;
+                    if (width >= 850 && width <= 1100) {
+                        price = 640.07;
                     } else if (width >= 1101 && width <= 1340) {
-                        price = 749.42;
+                        price = 654.13;
                     } else if (width >= 1341 && width <= 1800) {
-                        price = 817.26;
+                        price = 717.92;
                     } else if (width >= 1801 && width <= 2250) {
-                        price = 890.40;
-                    } else if (width >= 2251 && width <= 2540) {
-                        price = 972.02;
+                        price = 792.52;
+                    } else if (width >= 2251 && width <= 2660) {
+                        price = 857.39;
                     }
                 } else if (height >= 2501 && height <= 2670) {
-                    if (width >= 890 && width <= 1100) {
-                        price = 766.38;
+                    if (width >= 850 && width <= 1100) {
+                        price = 672.51;
                     } else if (width >= 1101 && width <= 1340) {
-                        price = 811.96;
+                        price = 696.29;
                     } else if (width >= 1341 && width <= 1800) {
-                        price = 860.72;
+                        price = 753.60;
                     } else if (width >= 1801 && width <= 2250) {
-                        price = 974.14;
+                        price = 866.04;
                     } else if (width >= 2251 && width <= 2540) {
-                        price = 1076.96;
+                        price = 952.54;
                     }
                 }
                 break;
