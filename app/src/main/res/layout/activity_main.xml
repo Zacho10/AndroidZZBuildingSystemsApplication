@@ -174,19 +174,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/zn_logo_new23" />
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="389dp"
-        android:layout_height="203dp"
-        android:layout_marginBottom="24dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Available Types: 1) pro1ei60, 2) pro2ei60, 3) pro2ei90, 4) pro1ei120, 5) pro1rei60, 6) pro2rei60, 7) pro1rei120, 8) pro2rei120, 9) uni1e60, 10) uni1ei60, 11) uni2ei60, 12) uni1ei90, 13) uni2ei90, 14) uni1rei120, 15) uni2rei120, 16) rever1, 17) rever2, 18) unim1, 19) unim2, 20) prom1, 21) prom2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -37,14 +37,21 @@ public class MainActivity extends AppCompatActivity {
         });
         discountButton = (Button)findViewById(R.id.discountButton);
         discountButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
+
             public void onClick(View v) {
                 discount = (EditText) findViewById(R.id.discount);
-                int disc = Integer.parseInt(discount.getText().toString());
+
+                    int disc = Integer.parseInt(discount.getText().toString());
+
+
+
                 text2 = (TextView) findViewById(R.id.price2);
                 double pr = Double.parseDouble(text1.getText().toString());
                 text2.setText(String.format("%.2f",pr*(100-disc)/100 ));
             }
+
         });
     }
 }
