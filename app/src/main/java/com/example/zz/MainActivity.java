@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 edit1=(EditText) findViewById(R.id.edit1);
                 edit2 =(EditText)findViewById(R.id.edit2);
                 edit3 =(EditText)findViewById(R.id.edit3);
-                int width = Integer.parseInt(edit2.getText().toString());
-                int height = Integer.parseInt(edit3.getText().toString());
+                 int width = Integer.parseInt(edit2.getText().toString());
+                 int height = Integer.parseInt(edit3.getText().toString());
                 String doorType = edit1.getText().toString();
                 text1 = (TextView) findViewById(R.id.price);
                 text1.setText(String.format("%.2f",Calculator.calculatePrice(width,height,doorType)));
@@ -43,13 +43,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 discount = (EditText) findViewById(R.id.discount);
 
-                    int disc = Integer.parseInt(discount.getText().toString());
+                int disc = Integer.parseInt(discount.getText().toString());
 
 
 
                 text2 = (TextView) findViewById(R.id.price2);
-                double pr = Double.parseDouble(text1.getText().toString());
-                text2.setText(String.format("%.2f",pr*(100-disc)/100 ));
+                //double pr = Double.parseDouble(text1.getText().toString());
+                edit1=(EditText) findViewById(R.id.edit1);
+                edit2 =(EditText)findViewById(R.id.edit2);
+                edit3 =(EditText)findViewById(R.id.edit3);
+                int width = Integer.parseInt(edit2.getText().toString());
+                int height = Integer.parseInt(edit3.getText().toString());
+                String doorType = edit1.getText().toString();
+                text2.setText(String.format("%.2f",Calculator.calculatePrice(width,height,doorType)*(100-disc)/100 ));
             }
 
         });

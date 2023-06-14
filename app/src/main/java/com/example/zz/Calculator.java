@@ -1833,12 +1833,18 @@ public class Calculator {
                         price = 249.31 ;
                     }else if(width == 1000){
                         price = 257.10 ;
+                    }else if (width == 1100){
+                        price = 280.7 ;
                     }
                 }else if(height == 2100) {
-                    if(width == 900){
+                    if(width== 800){
+                        price = 247.09 ;
+                    }else if(width == 900){
                         price = 252.65 ;
                     }else if (width == 1000){
                         price = 262.67 ;
+                    }else if (width == 1100){
+                        price = 316.16 ;
                     }
                 }else if( height == 2150){
                     if(width== 800){
@@ -1847,6 +1853,32 @@ public class Calculator {
                         price = 252.65 ;
                     }else if(width == 1000){
                         price = 262.67 ;
+                    }else if (width == 1100){
+                        price = 316.15 ;
+                    }
+                }else if( height >= 1780 && height <= 2050 ){
+                    if(width>=540 && width<= 650){
+                        price = 289.06 ;
+                    }else if(width<= 800){
+                        price = 300.86 ;
+                    }else if(width <= 900){
+                        price = 307.94 ;
+                    }else if(width <= 1000){
+                        price = 317.38 ;
+                    }else if(width<= 1150){
+                        price = 346.88 ;
+                    }
+                }else if(height>=2051 && height<=2200){
+                    if(width>=540 && width<= 650){
+                        price = 291.43 ;
+                    }else if(width<= 800){
+                        price = 303.23 ;
+                    }else if(width <= 900){
+                        price = 313.83 ;
+                    }else if(width <= 1000){
+                        price = 324.45 ;
+                    }else if(width<= 1150){
+                        price = 352.77 ;
                     }
                 }
                 break;
@@ -1866,6 +1898,8 @@ public class Calculator {
                         price = 274.62 ;
                     }else if (width == 1000){
                         price = 289.76 ;
+                    }else if(width == 1100){
+                        price = 315.73 ;
                     }
                 }else if( height == 2150){
                     if(width== 800){
@@ -1877,30 +1911,112 @@ public class Calculator {
                     }else if(width==1100){
                         price = 315.71 ;
                     }
+                }else if( height >= 1780 && height <= 2050 ){
+                    if(width>=540 && width<= 650){
+                        price = 306.02 ;
+                    }else if(width<= 800){
+                        price = 330.09 ;
+                    }else if(width <= 900){
+                        price = 343.83 ;
+                    }else if(width <= 1000){
+                        price = 356.45 ;
+                    }else if(width<= 1144){
+                        price = 380.51 ;
+                    }
+                }else if(height>=2051 && height<=2200){
+                    if(width>=540 && width<= 650){
+                        price = 317.48 ;
+                    }else if(width<= 800){
+                        price = 346.13 ;
+                    }else if(width <= 900){
+                        price = 363.32 ;
+                    }else if(width <= 1000){
+                        price = 374.78 ;
+                    }else if(width<= 1144) {
+                        price = 401.14;
+                    }
                 }
                 break;
             case "uni2ei60":
                 if(height == 2050)  {
-                    if(width == 1600){
-                        price = 568.16 ;
-                    }else if( width == 1800){
+                    if(width == 1200){
+                        price = 522.59;
+                    }else if(width == 1300){
+                        price = 528.96 ;
+                    }else if( width == 1400){
+                        price = 543.79 ;
+                    }else if(width == 1500){
+                        price = 559.70 ;
+                    }else if(width == 1600){
+                        price = 568.17 ;
+                    }else if( width == 1700){
+                        price = 584.08 ;
+                    }else if(width == 1800){
                         price = 599.96 ;
+                    }else if( width == 1900){
+                        price = 613.75 ;
                     }else if(width == 2000){
-                        price = 626.46 ;
+                        price = 626.47 ;
+                    }
+                }else if( height == 2100){
+                    if(width == 1200){
+                        price = 544.85;
+                    }else if(width == 1300){
+                        price = 546.97 ;
+                    }else if( width == 1400){
+                        price = 560.75 ;
+                    }else if(width == 1500){
+                        price = 576.65 ;
+                    }else if(width == 1600){
+                        price = 591.49 ;
+                    }else if( width == 1700){
+                        price = 602.09 ;
+                    }else if(width == 1800){
+                        price = 617.98 ;
+                    }else if( width == 1900){
+                        price = 632.83 ;
+                    }else if(width == 2000){
+                        price = 639.18 ;
                     }
                 }else if( height == 2150){
-                    if(width== 1200){
-                        price = 560.74 ;
+                    if(width == 1200){
+                        price = 544.85;
                     }else if(width == 1300){
-                        price = 574.52 ;
-                    }else if(width == 1400){
-                        price = 588.30 ;
-                    }else if(width==1600){
-                        price = 591.48 ;
-                    }else if(width==1800){
+                        price = 546.97 ;
+                    }else if( width == 1400){
+                        price = 560.75 ;
+                    }else if(width == 1500){
+                        price = 576.65 ;
+                    }else if(width == 1600){
+                        price = 591.49 ;
+                    }else if( width == 1700){
+                        price = 602.09 ;
+                    }else if(width == 1800){
                         price = 617.98 ;
-                    }else if(width==2000){
+                    }else if( width == 1900){
+                        price = 632.83 ;
+                    }else if(width == 2000){
                         price = 639.18 ;
+                    }
+                }else if( height>=1780 && height <=2050){
+                    if(width>= 1000 && width<= 1300){
+                        price = 664.06 ;
+                    }else if (width<=1600){
+                        price = 702.26 ;
+                    }else if(width<=1800){
+                        price = 732.59;
+                    }else if(width<=2000){
+                        price = 762.94;
+                    }
+                }else if( height>=2051 && height <=2150){
+                    if(width>= 1000 && width<= 1300){
+                        price = 678.67 ;
+                    }else if (width<=1600){
+                        price = 715.75 ;
+                    }else if(width<=1800){
+                        price = 753.95;
+                    }else if(width<=2000){
+                        price = 785.41;
                     }
                 }
                 break;
@@ -1914,7 +2030,10 @@ public class Calculator {
                         price = 293.62 ;
                     }
                 }else if(height == 2100) {
-                    if(width == 900){
+                    if(width ==800){
+                        price = 280.91 ;
+
+                    }else if(width == 900){
                         price = 292.56 ;
                     }else if (width == 1000){
                         price = 305.28 ;
@@ -1927,24 +2046,98 @@ public class Calculator {
                     }else if(width == 1000){
                         price = 305.28 ;
                     }
+                }else if( height>=1780&&height<=2050){
+                    if(width>=540 && width<= 650){
+                        price = 320.24;
+                    }else if(width<= 800){
+                        price = 349.45 ;
+                    }else if(width <= 900){
+                        price = 365.18 ;
+                    }else if(width <= 1000) {
+                        price = 380.91;
+                    }
+                }else if( height<=2150){
+                    if(width>=540 && width<= 650){
+                        price = 332.60;
+                    }else if(width<= 800){
+                        price = 362.93 ;
+                    }else if(width <= 900){
+                        price = 380.91 ;
+                    }else if(width <= 1000) {
+                        price = 398.89;
+                    }
                 }
                 break;
             case "uni2ei90" :
                 if(height == 2050)  {
-                    if(width == 1600){
-                        price = 672.04 ;
+                    if(width == 1300){
+                        price = 632.83 ;
+                    }else if( width == 1400){
+                        price = 647.68 ;
+                    }else if(width == 1500){
+                        price = 661.45 ;
+                    }else if( width == 1600){
+                        price = 672.06 ;
+                    }else if(width == 1700){
+                        price = 691.13 ;
                     }else if( width == 1800){
-                        price = 708.08 ;
+                        price = 708.09 ;
+                    }else if(width == 1900){
+                        price = 722.93 ;
                     }else if(width == 2000){
                         price = 742.00 ;
                     }
-                }else if( height == 2150){
-                    if(width== 1600){
+                }else if( height == 2100){
+                    if(width == 1300){
+                        price = 654.86 ;
+                    }else if( width == 1400){
+                        price = 672.06 ;
+                    }else if(width == 1500){
+                        price = 686.89 ;
+                    }else if( width == 1600){
                         price = 699.60 ;
-                    }else if(width == 1800){
-                        price = 734.58 ;
+                    }else if(width == 1700){
+                        price = 716.57 ;
+                    }else if( width == 1800){
+                        price = 734.59 ;
+                    }else if(width == 1900){
+                        price = 752.61 ;
                     }else if(width == 2000){
                         price = 769.56 ;
+                    }
+                }else if( height == 2150){
+                    if(width == 1300){
+                        price = 655.09 ;
+                    }else if( width == 1400){
+                        price = 672.06 ;
+                    }else if(width == 1500){
+                        price = 686.89 ;
+                    }else if( width == 1600){
+                        price = 699.60 ;
+                    }else if(width == 1700){
+                        price = 716.57 ;
+                    }else if( width == 1800){
+                        price = 734.59 ;
+                    }else if(width == 1900){
+                        price = 752.61 ;
+                    }else if(width == 2000){
+                        price = 769.56 ;
+                    }
+                }else if( height>=1780 && height <=2050){
+                    if(width>= 1000 && width<= 1600){
+                        price = 756.19 ;
+                    }else if(width<=1800){
+                        price = 789.89;
+                    }else if(width<=2000){
+                        price = 826.98;
+                    }
+                }else if( height>=2051 && height <=2150){
+                    if(width>= 1000 && width<= 1600){
+                        price = 783.17 ;
+                    }else if(width<=1800){
+                        price = 820.24;
+                    }else if(width<=2000){
+                        price = 853.94;
                     }
                 }
                 break;
@@ -1960,12 +2153,26 @@ public class Calculator {
                         price= 338.14 ;
                     }else if(width== 1200){
                         price= 374.18;
+                    }else if(width == 1300){
+                        price = 399.63 ;
+                    }else if(width == 1350){
+                        price = 409.17 ;
                     }
                 }else if(height == 2100) {
-                    if(width == 900){
-                        price = 292.56 ;
-                    }else if (width == 1000){
-                        price = 305.28 ;
+                    if(width == 800){
+                        price = 280.91;
+                    }else if( width == 900){
+                        price = 292.57 ;
+                    }else if(width == 1000){
+                        price = 305.29 ;
+                    }else if(width==1100){
+                        price= 331.79 ;
+                    }else if(width== 1200){
+                        price= 385.84;
+                    }else if(width == 1300){
+                        price = 421.89 ;
+                    }else if(width == 1350){
+                        price = 430.36 ;
                     }
                 }else if( height == 2150){
                     if(width== 800){
@@ -1983,36 +2190,148 @@ public class Calculator {
                     }else if(width == 1350){
                         price = 430.36 ;
                     }
+                }else if( height>=1780&&height<=2050){
+                    if(width>=540 && width<= 650){
+                        price = 320.24;
+                    }else if(width<= 800){
+                        price = 349.45 ;
+                    }else if(width <= 900){
+                        price = 365.18 ;
+                    }else if(width <= 1000) {
+                        price = 380.91;
+                    }else if(width <= 1144) {
+                        price = 419.12;
+                    }else if(width <= 1200) {
+                        price = 477.54;
+                    }else if(width <= 1330) {
+                        price = 532.60;
+                    }else if(width <= 1350) {
+                        price = 532.60;
+                    }
+                }else if( height<=2150){
+                    if(width>=540 && width<= 650){
+                        price = 332.60;
+                    }else if(width<= 800){
+                        price = 362.93 ;
+                    }else if(width <= 900){
+                        price = 380.91 ;
+                    }else if(width <= 1000) {
+                        price = 398.89;
+                    }else if(width <= 1144) {
+                        price = 441.58;
+                    }else if(width <= 1200) {
+                        price = 497.76;
+                    }else if(width <= 1350) {
+                        price = 546.07;
+                    }
                 }
                 break;
             case "uni2rei120" :
                 if(height == 2050)  {
-                    if(width == 1200){
-                        price = 585.12 ;
-                    }else if( width == 1300){
-                        price = 598.90 ;
-                    }else if(width == 1400){
-                        price = 615.86 ;
+                    if(width == 1150){
+                        price = 574.53 ;
+                    }else if( width == 1200){
+                        price = 585.13 ;
+                    }else if(width == 1250){
+                        price = 589.37 ;
+                    }else if(width == 1300){
+                        price = 598.91 ;
+                    }else if(width==1350){
+                        price= 605.27 ;
+                    }else if(width==1400){
+                        price = 615.87 ;
+                    }else if( width == 1450){
+                        price = 625.41 ;
                     }else if(width == 1600){
-                        price = 644.48 ;
+                        price = 644.49 ;
+                    }else if(width == 1700){
+                        price = 662.51 ;
                     }else if(width==1800){
-                        price= 676.28 ;
+                        price= 676.29 ;
+                    }else if(width==1900){
+                        price = 691.13 ;
                     }else if(width==2000){
-                        price = 711.26 ;
+                        price = 711.27 ;
+                    }
+                }else if( height == 2100){
+                    if(width == 1150){
+                        price = 594.67  ;
+                    }else if( width == 1200){
+                        price = 602.09 ;
+                    }else if(width == 1250){
+                        price = 612.68 ;
+                    }else if(width == 1300){
+                        price = 622.23 ;
+                    }else if(width==1350){
+                        price= 628.59 ;
+                    }else if(width==1400){
+                        price = 632.83 ;
+                    }else if( width == 1450){
+                        price = 642.37 ;
+                    }else if(width == 1600){
+                        price = 669.93 ;
+                    }else if(width == 1700){
+                        price = 685.83 ;
+                    }else if(width==1800){
+                        price= 704.91 ;
+                    }else if(width==1900){
+                        price = 720.80 ;
+                    }else if(width==2000){
+                        price = 735.66 ;
                     }
                 }else if( height == 2150){
-                    if(width == 1200){
-                        price = 602.08 ;
-                    }else if( width == 1300){
-                        price = 622.22 ;
-                    }else if(width == 1400){
-                        price = 632.82 ;
+                    if(width == 1150){
+                        price = 594.67  ;
+                    }else if( width == 1200){
+                        price = 602.09 ;
+                    }else if(width == 1250){
+                        price = 612.68 ;
+                    }else if(width == 1300){
+                        price = 622.23 ;
+                    }else if(width==1350){
+                        price= 628.59 ;
+                    }else if(width==1400){
+                        price = 632.83 ;
+                    }else if( width == 1450){
+                        price = 642.37 ;
                     }else if(width == 1600){
-                        price = 669.92 ;
+                        price = 669.93 ;
+                    }else if(width == 1700){
+                        price = 685.83 ;
                     }else if(width==1800){
-                        price= 704.90 ;
+                        price= 704.91 ;
+                    }else if(width==1900){
+                        price = 720.80 ;
                     }else if(width==2000){
-                        price = 735.64 ;
+                        price = 735.66 ;
+                    }
+                }else if(height >= 1780 && height <=2050){
+                    if(width>=940 && width<=1250){
+                        price = 728.11;
+                    }else if(width<= 1350){
+                        price = 749.45 ;
+                    }else if(width <= 1450){
+                        price  = 768.55 ;
+                    }else if( width<= 1600){
+                        price = 785.41;
+                    }else if(width<=1800){
+                        price = 815.74 ;
+                    }else if(width<=2000){
+                        price = 850.58 ;
+                    }
+                }else if(height >2050 && height <= 2150){
+                    if(width>=940 && width<=1250){
+                        price = 747.21 ;
+                    }else if(width<= 1350){
+                        price = 766.30 ;
+                    }else if(width <= 1450){
+                        price  = 786.53 ;
+                    }else if( width<= 1600){
+                        price = 806.76;
+                    }else if(width<=1800){
+                        price = 844.95 ;
+                    }else if(width<=2000){
+                        price = 880.91 ;
                     }
                 }
                 break;
@@ -2685,6 +3004,6 @@ public class Calculator {
                 }
                 break;
         }
-        return price * 1.025;
+        return (price * 1.025) * 1.06 ;
     }
 }
